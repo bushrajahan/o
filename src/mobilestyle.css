@@ -1,0 +1,57 @@
+@media only screen and (max-width:768px){
+    header  .navbar-brand{
+        padding-left: 1rem;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position:initial;
+        height: initial;
+        width: initial;
+    }
+    .section-1 .row .col-md-6 .panel p{
+        font-size: 1.3rem;
+        padding: 10px;
+    }
+    .section-1 .row .col-md-6 .pray img{
+        width: 400px;
+    }
+    .section-2.cover{
+        background-position:-25vmin -50vmin ;
+    }
+    
+    .numbers .rect{
+        z-index: 0;
+      
+    }
+    .numbers .rect h1{
+        font-size: 2rem;
+    }
+    .numbers{
+        margin-top: initial;
+    }
+    
+    .section-3{
+        height: inherit;
+        padding: 10vmin!important;
+    }
+    .section-3 .row h1{
+        padding: 6vmin 4vmin;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center!important;
+    }
+    .platform{
+        flex-direction: column;
+ 
+    }
+    .section-4 .team{
+        padding: 0 0;
+       
+    }
+.section-4 .team-row{
+   flex-direction: column!important;
+   align-items: center!important;
+   justify-content: center!important;
+}
+
+    
+}

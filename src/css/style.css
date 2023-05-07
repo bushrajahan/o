@@ -1,0 +1,303 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    box-sizing: border-box;
+}
+header,section{
+    overflow-x:hidden ;
+}
+:root{
+    --single-font: 'Rubik', sans-serif;
+    --light-black:rgba(126, 122, 122, 0.212);
+    --bg-gradient:
+
+
+--light-gray:#D3D3D3;
+}
+.nav-item a,header a{
+    font-family: var(--single-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+header{
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* height: 100vh; */
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background:white;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.dropdown-content a{
+    
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 16px 12px;
+    
+
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+    background-image: linear-gradient(to right, #053721, #005259, #0069b6, #006bfc, #e312eb);
+
+}
+.dropdown:hover .dropdown-content{
+   display: block;
+   color: black;
+
+}
+header .nav-item:last-child{
+   padding-right: 10.5em;
+}
+header .nav-item{
+    padding:0.9em;
+}
+header .navbar-brand{
+    padding-left: 8rem;
+}
+header .navbar:hover{
+    color:black;
+}
+header .row .col-md-5{
+    padding: 4.2vmin 1min;
+}
+header .row .col-md-7{
+   padding: 22vmin 1vmin;
+   padding-bottom: 35vmin;
+   color: white;
+}
+header .row .col-md-5 img{
+    width: 90%;
+}
+header .container .row .col-md-7  h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+header .container .row .col-md-7 h1{
+    padding: 0.1em 0em;
+    font-size: 8vmin;
+    font-weight: bold;
+
+}
+header .container .row .col-md-7 p{
+   padding: 1vmin 5vmin;
+}
+header .container .row .col-md-7 .btn{
+    border-radius: 30px;
+    font-weight: bold;
+}
+/* section1 */
+.section-1{
+    padding: 20vmin 0;
+}
+.section-1 .col-md-6.pray img{
+  opacity: 0.8;
+  width:10vmin;
+  border-radius: 0.2em;   
+}
+.section-1 .row .col-md-6:last-child{
+     position:relative;
+
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top:7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 12vmin 10vmin 20vmin 10vmin;
+    box-shadow: 0px 42px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: black;
+  
+
+}
+.section-1.row.col-md-6 .panel h1{
+    font-weight: bold;
+    padding:0.4em 0;
+    font-size: 2em;
+
+
+}
+.section-1.row.col-md-6 .panel p{
+    font-size:0.9em;
+    color: rgb(0,0,0,0.9);
+}
+/* section2 */
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url('/src/asset/2.jpg') ;
+    background-position: -29em -29em;
+    background-size: 100%;
+    position: relative;
+}
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content > h1{
+    font-family: var(--single-font);
+    font-size: 6vmin;
+    color: white;
+    text-transform: capitalize;
+}
+.cover .content >p{
+    font-family: var(--single-font);
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    width: 17rem;
+    height: 12rem;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 2rem;
+}
+.rect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.numbers{
+    margin-top: -8rem;
+}
+.rect h1{
+   color: tomato;
+   font-family:cursive;
+   font-weight: bold;
+   font-size:5rem;
+}
+.rect p{
+    font-family:cursive;
+    font-weight: bold;
+}
+.purchase h1{
+    padding-top: 5em;
+    padding-bottom: 2rem;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.purchase > p{
+    color:black;
+    font-size: 3vmin;
+   margin-bottom: 8rem;
+}
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+.card .card-title{
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2rem;
+}
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: #ddd;
+} 
+.card-body .Pricning{
+    background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 900px ;
+    border-bottom-left-radius: 150px;
+ 
+
+}
+.card-body .Pricning >h1{
+    font-size: 10vmin;
+
+}
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background-image: linear-gradient(to right, #d36f2a, #e97768, #ec8b9c, #e1a6c2, #d5bfd6);
+    
+}
+.section-3 .col-md-12  > h1{
+    padding: 2em 0 0.5 0;
+    font-size: 10em;
+    color: white;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.section-3 .col-md-12 > p{
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: white;
+    font-size: 3vmin;
+}
+.section-3 .desktop{
+   background-color: white;
+   border-radius: 3rem;
+   width: 15rem;
+   padding: 1rem 2rem;
+   display: inline-block;
+   margin: 1em;
+}
+.section-3 .mobile{
+    background-color: white;
+    border-radius: 3rem;
+    width: 15rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: 1em;
+}
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 10vmin;
+    color: tomato;
+}
+.section-4 .team{
+    padding: 10vmin 4vmin;
+}
+.section-4 .card {
+    width: fit-content;
+    margin: 10vmin;
+}
+.section-4 .card .card-text{
+    padding:0.5rem;
+}
+/* footer */
+footer{
+    background: rgba(0, 0,0, 0.85);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+footer p>span{
+    color: tomato;
+}
+footer input{
+    border: none!important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group .input-group-text{
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+
+}
+footer .column i{
+    color: tomato;
+}
+footer .column i+i{
+    padding: 0.5rem  0.5rem;
+}
